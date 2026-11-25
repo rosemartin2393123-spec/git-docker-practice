@@ -53,3 +53,6 @@ docker run --rm git-docker-practice
 
 ## Автор
 Кузьменко Валентин Сергеевич, БИ-3-24-02.
+
+## Pull Request check
+This change demonstrates a feature branch, pull request, and code review.
