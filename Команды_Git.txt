@@ -1,0 +1,25 @@
+# Команды, использованные для локальной части
+
+git --version
+git config --global user.name "Кузьменко Валентин Сергеевич"
+git config --global user.email "ВАШ_EMAIL"
+mkdir git-docker-practice
+cd git-docker-practice
+git init
+git status
+git add README.md
+git commit -m "Добавлен README с данными студента"
+git log --oneline
+git add src/main.py
+git commit -m "Добавлено исходное приложение на Python"
+git diff HEAD~1 HEAD -- src/main.py
+git log --oneline -- src/main.py
+git branch feature/github-review
+git switch feature/github-review
+git add GITHUB_CHECKLIST.md
+git commit -m "Добавлена инструкция для GitHub review"
+git switch main
+git merge --no-ff feature/github-review -m "Слияние инструкции GitHub review"
+git branch -d feature/github-review
+git remote add origin https://github.com/ВАШ_ЛОГИН/git-docker-practice.git
+git push -u origin main
