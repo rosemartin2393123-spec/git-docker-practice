@@ -54,5 +54,5 @@ docker run --rm git-docker-practice
 ## РђРІС‚РѕСЂ
 РљСѓР·СЊРјРµРЅРєРѕ Р’Р°Р»РµРЅС‚РёРЅ РЎРµСЂРіРµРµРІРёС‡, Р‘Р-3-24-02.
 
-## Проверка Pull Request
-Изменения внесены в отдельной ветке для демонстрации Pull Request и Code Review.
+## Pull Request check
+This change demonstrates a feature branch, pull request, and code review.
